@@ -1,0 +1,57 @@
+
+
+/* Set the viewport width for mobile devices */
+@media only screen and (max-width: 768px) {
+body {
+    width: 100%;
+}
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f9fc; /* light blue background */
+margin: 0;
+padding: 0;
+}
+
+h1 {
+background-image: url('path/to/your/image.jpg'); /* Add your image path here */
+background-repeat: no-repeat;
+background-size: 50px 50px; /* Adjust the size of the image */
+background-position: left center;
+padding-left: 70px; /* To make space for the image */
+color: #333;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+/* ... Rest of your CSS code ... */
+
+
+  .pg {
+      font-size: 24px;
+  }
+
+  #citySelect, button {
+      font-size: 14px;
+  }
+}
+.scrollable-results {
+  margin-top: 20px;
+  height: calc(100vh - 220px); /* Adjust this value according to your layout */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.
+.scrollable {
+  max-height: 200px; /* Adjust the height as per your requirement */
+  overflow-y: auto;
+}
+/* Full screen styling for mobile devices */
+#pg-results {
+  height: 100vh; /* Set height to 100% of viewport height */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
